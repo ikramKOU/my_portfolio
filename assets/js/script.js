@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Kourtass ikram";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            $("#favicon").attr("href", "assets/images/ana.jpeg");
         }
         else {
             document.title = "Portfolio | Kourtass ikram";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            $("#favicon").attr("href", "assets/images/ana.jpeg");
         }
     });
 

@@ -1,6 +1,148 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* ========== PROJECT SECTION ========== */
+section.work {
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.heading span {
+  color: #0077ff;
+}
+
+/* Container responsive avec Grid */
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Style des cartes */
+.box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.tag h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.desc p {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: #555;
+}
+
+.desc ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.desc ul li {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+  color: #444;
+}
+
+/* Boutons */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  background: #0077ff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005ec2;
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+/* Tablette */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .desc p, .desc ul li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
