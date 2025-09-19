@@ -599,7 +599,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #0e2431;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -663,7 +663,7 @@ header .navbar ul li a:hover {
   padding: 1rem;
 }
 .work .heading span {
-    color: rgb(167, 3, 30);
+  color: rgb(167, 3, 30);
 }
 .work .box-container {
   display: flex;
@@ -702,7 +702,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #da0416;
+  background-color: rgb(167, 3, 30);
   color: #FFF;
 }
 .work .box-container .box .content .tag h3 {
